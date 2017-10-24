@@ -1,1 +1,8 @@
 this is a branch test
+
+$ git checkout -b hotfix
+$ vim xxx
+$ git commit -a -m 'fixed in file xxx'
+$ git checkout master
+$ git merge hotfix
+$ git branch -d hotfix
